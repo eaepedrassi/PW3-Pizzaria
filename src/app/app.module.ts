@@ -5,6 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComandaComponent } from './comanda/comanda.component';
 
+import {ReactiveFormsModule} from '@angular/forms';
+
+imports:[BrowserModule,AppRoutingModule,ReactiveFormsModule]
+
 @NgModule({
   declarations: [
     AppComponent,
